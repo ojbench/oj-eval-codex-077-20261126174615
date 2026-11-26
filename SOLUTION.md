@@ -23,3 +23,6 @@ Libraries are used only in the local tests, not the submitted class.
   requires source submission despite advertising Git support.
 - The client now supports `submit --problem-id 1410 --source CrossArray.hpp`.
   `make` also packages the header as `code` for the documented artifact layout.
+- Submission 879529: direct C++ header submission, accepted, score 100/100.
+  All seven test groups passed. Peak memory was 47,591,424 bytes; the slowest
+  test took 641 ms against a 1000 ms limit. Two of five attempts were used.
